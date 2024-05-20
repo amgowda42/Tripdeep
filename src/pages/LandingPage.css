@@ -1,0 +1,46 @@
+.landinpage-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+    background-color:rgba(0, 0, 0, .5);
+}
+.landingpage-content{
+    color: #fff;
+    z-index: 1001;
+    text-align: center;
+    margin-top: -50px;
+}
+.landingpage-content h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 14rem;
+    margin: 40px;
+}
+.landingpage-content h3 {
+    font-size: 2rem;
+}
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: cover ;
+    z-index: -1;
+}
+
+.arrow {
+    text-align: center;
+    position: absolute;
+    margin: 100px 0;
+    color: #fff;
+    bottom: -100px;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+}
