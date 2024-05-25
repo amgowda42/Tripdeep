@@ -1,34 +1,34 @@
 import "./Navbar.css";
+import logo from "/utils/images/the_logo.png";
+import { Link } from "react-router-dom";
 
-const LOGO_URL =
-  "https://cdn.dribbble.com/userupload/5222793/file/original-46d3ef1abd8fba5f6b21c603cf01acd6.png?resize=752x";
 const Navbar = () => {
   return (
     <div className="navigation">
-      <a href="/">
-        <img src={LOGO_URL} className="logo" alt="logo" />
-      </a>
+      <Link to ="/">
+        <img src={logo} className="logo" alt="logo" />
+      </Link>
       <div className="navigation-menu">
         <ul>
           <li>
-            <a href="#home" className="nav-link nav-link-line">
+            <Link to="/" className="nav-link nav-link-line">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#about" className="nav-link nav-link-line">
+            <Link to="/about"  className="nav-link nav-link-line">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#destination" className="nav-link nav-link-line">
+            <Link to="/destinations" className="nav-link nav-link-line">
               Destination
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#newsletter" className="nav-link nav-link-line">
-              NewsLetter
-            </a>
+            <Link to="/booknow" className="nav-link nav-link-line">
+              Book Now
+            </Link>
           </li>
         </ul>
       </div>

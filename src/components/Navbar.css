@@ -1,17 +1,17 @@
 .logo {
-  width: 120px;
-  height: 90px;
+  width: 140px;
+  height: 121px;
 }
 
 .navigation {
-  height: 95px;
+  height: 120px;
   width: 100%;
   display: flex;
   align-items: center;
-  position: fixed;
+  position: relative;
   z-index: 100000005;
   background: #fff;
-  border-bottom: 2px solid #144272;
+  border-bottom: 5px solid #144272;
 }
 .navigation-menu {
   margin-left: auto;
