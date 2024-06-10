@@ -12,7 +12,6 @@ const LandingPage = () => {
           <button className="lading-page-btn">Book Now</button>
         </Link>
       </div>
-      <div className="arrow bounce"></div>
       <video autoPlay loop muted id="myVideo">
         <source src={videoSrc} type="video/mp4" />
       </video>

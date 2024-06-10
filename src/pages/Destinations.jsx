@@ -1,10 +1,10 @@
-import "./Destinations.css";
+
 import { Destination } from "/utils/Data";
 console.log(Destination);
 
 const Destinations = () => {
   return (
-    <div id="destinations">
+    <div className="bg-slate-400">
       <div className="destinations-container">
         <h1>Destinations</h1>
         <div className="cards-container-box">{

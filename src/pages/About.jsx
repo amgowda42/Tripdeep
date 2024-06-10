@@ -1,13 +1,11 @@
-import "./About.css";
-
 const About = () => {
   return (
     <div id="about">
       <div className="container">
         <div className="about-container">
           <div className="about-content-left">
-            <h5>Established since 1991</h5>
-            <h4>All About Malpe Beach</h4>
+            <h5>Started in 2019</h5>
+            <h4>All The Trip Pole Community</h4>
             <p className="about-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
               mollitia alias, vitae laudantium unde aperiam laboriosam ex,
